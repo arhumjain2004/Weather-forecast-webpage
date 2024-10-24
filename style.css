@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    height:4rem;
+    width:auto;
+    background: rgb(77, 161, 245);
+
+}
+h1{
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+h3{
+    font-size: 1rem;
+    margin: 10px 0;
+}
+.all{
+    background: rgb(171,212,246);
+}
+.container{
+    display: flex;
+    gap:40px;
+    padding:40px;
+}
+.search-box{
+    width: 500px;
+}
+input{
+    width:85%;
+    height:35px;
+    padding: 0 20px;
+    margin:10px 0 10px 0;
+    border-radius: 6px;
+}
+.search-button{
+    width:80%;
+    height:30px;
+    border-radius: 8px;
+    background-color: rgb(15, 121, 241);
+    cursor: pointer;
+    color: aliceblue;
+    font-size: medium;
+    
+}
+#location{
+    width:80%;
+    height:30px;
+    border-radius:8px;
+    margin: 4px 0;
+    cursor: pointer;
+    font-size: medium;
+}
+.weather-data{
+    width:100%;
+}
+.weather-box{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+    background-color: white;
+    padding: 20px 80px 20px 30px;
+    cursor:pointer;
+    font-size: large;
+} 
+.other-day-for{
+    width:100%;
+    margin-top: 15px;
+}
+.other-day-for-box{
+    display:flex;
+    gap:20px;
+    margin: 15px;
+   
+}
+.Day-one{
+    background-color: white;
+    padding: 8px;
+}
+.Day-two{
+    background-color: white;
+    padding: 8px;
+}
+.Day-three{
+    background-color:white;
+    padding: 8px;
+}
+.Day-for{
+    background-color: white;
+    padding: 8px;
+}
+.Day-five{
+    background-color:white;
+    padding: 8px;
+}
+
+@media (max-width: 768px) {
+    
+    .container {
+        flex-direction: column; 
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .search-box {
+        width: 100%; 
+    }
+
+    input, .search-button, #location {
+        width: 100%; 
+    }
+
+    .weather-box {
+        flex-direction: column;
+        padding: 10px 20px;
+        font-size: medium; 
+    }
+
+    .other-day-for-box {
+        flex-direction: column; 
+        gap: 10px;
+    }
+
+    .Day-one, .Day-two, .Day-three, .Day-for, .Day-five {
+        padding: 5px; 
+    }
+}
+@media (max-width: 768px) {
+    .search-button, #location {
+        height: 40px;
+        font-size: large; 
+    }
+}
+
