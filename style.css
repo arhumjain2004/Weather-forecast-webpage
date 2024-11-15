@@ -45,7 +45,7 @@ input{
     font-size: medium;
     
 }
-#location{
+.location-btn{
     width:80%;
     height:30px;
     border-radius:8px;
@@ -133,4 +133,5 @@ input{
         font-size: large; 
     }
 }
+
 
